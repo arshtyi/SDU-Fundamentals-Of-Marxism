@@ -1,22 +1,21 @@
 #import "@preview/ezexam:0.3.1": *
 
-#set page(height: auto)
-#set par(justify: true)
-#set smartquote(quotes: "\"\"")
 #show: setup.with(
     mode: EXAM,
     resume: false,
-    // ref-color: black,
-    // list-spacing: 1.5em,
-    enum-spacing: 1.5em,
-    // line-height: 1em,
+    heading-top: 0em,
+    heading-bottom: 0.4em,
+    line-height: 0.65em,
+    par-spacing: 0.65em,
+    enum-spacing: 0.65em,
+    list-spacing: 0.65em,
 )
+#set par(justify: true)
+#set smartquote(quotes: "\"\"")
 #show link: it => text(fill: blue.darken(20%), underline(it))
 #let question = question.with(supplement: "Q ", ref-on: true, show-ref-prefix: false)
 
-#title[
-    山东大学计算机科学与技术学院马克思主义基本原理课堂测试
-]
+#title[山东大学计算机科学与技术学院马克思主义基本原理课堂测试]
 #exam-info(info: (班级: "24智能", 教师: "张政"))
 #notice(
     [出于方便使用#link("https://github.com/gbchu/ezexam", "gbchu/ezexam:0.3.1")作模板.],
@@ -46,4 +45,19 @@
 
 #question[
     指出生活中的一件事,同时体现了真理和价值两方面(开放题,例如一件事,既追求科学真理,又体现高尚价值).
+]
+= No.3
+#question[
+    根据课本给出社会存在与社会意识的辩证关系.
+]
+
+#question[
+    根据课本给出科学技术的社会作用(三方面)以及如何把握科学技术的社会作用?
+]
+
+#question[
+    选其一回答:
+    + 结合英雄史观谈谈你理解的英雄.
+    + 谈一个你心中的英雄.
+    + 谈谈我们今天是否还值得谈论英雄.
 ]
