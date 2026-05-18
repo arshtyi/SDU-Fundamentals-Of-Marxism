@@ -16,11 +16,11 @@
 #let question = question.with(supplement: "Q ", ref-on: true, show-ref-prefix: false)
 
 #title[山东大学计算机科学与技术学院马克思主义基本原理课堂测试]
-#exam-info(info: (班级: "24智能", 教师: "张政"))
-#notice(
-    [出于方便使用#link("https://github.com/gbchu/ezexam", "gbchu/ezexam:0.3.1")作模板.],
-    [源码:#link("https://github.com/arshtyi/SDU-Fundamentals-Of-Marxism", "source").],
-)
+#exam-info(info: (
+    班级: "24智能",
+    教师: "张政",
+    源码: link("https://github.com/arshtyi/SDU-Fundamentals-Of-Marxism", "source"),
+))
 
 = No.1
 #question[
