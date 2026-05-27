@@ -13,9 +13,14 @@
 #set par(justify: true)
 #set smartquote(quotes: "\"\"")
 #show link: it => text(fill: blue.darken(20%), underline(it))
-#let question = question.with(supplement: "Q ", ref-on: true, show-ref-prefix: false)
+#let question = question.with(supplement: "Q", ref-on: true, show-ref-prefix: false)
 
-#title[山东大学计算机科学与技术学院马克思主义基本原理课堂测试]
+#let Title = "山东大学计算机科学与技术学院马克思主义基本原理课堂测试"
+#let author = "arshtyi"
+#let date = datetime.today()
+
+#set document(title: Title, date: date, author: author)
+#title(Title)
 #exam-info(info: (
     班级: "24智能",
     教师: "张政",
@@ -34,6 +39,7 @@
 #question[
     看教材,请分别论述矛盾的同一性和斗争性,矛盾的普遍性和特殊性的辩证关系?
 ]
+
 = No.2
 #question[
     1927年大革命失败后,党先后发动以攻占大城市为目标的武装暴动,大多受挫.毛泽东率领秋收起义部队转向井冈山,在实践中逐步认识到必须把马克思主义同中国革命实际相结合.他总结井冈山斗争经验,写下多部著作,提出了"工农武装割据"思想.在这一理论指引下,各地红军和革命根据地又发展壮大起来*(请应用教材中两次飞跃内容,结合材料作答)*.
@@ -46,6 +52,7 @@
 #question[
     指出生活中的一件事,同时体现了真理和价值两方面(开放题,例如一件事,既追求科学真理,又体现高尚价值).
 ]
+
 = No.3
 #question[
     根据课本给出社会存在与社会意识的辩证关系.
@@ -60,4 +67,22 @@
     + 结合英雄史观谈谈你理解的英雄.
     + 谈一个你心中的英雄.
     + 谈谈我们今天是否还值得谈论英雄.
+]
+
+= No.4
+#question[
+    按课本写出:
+    + 价值规律的主要内容和客观要求.
+    + 价值规律的表现形式.
+    + 价值规律在市场配置资源过程中的作用($3$条).
+    + 消极效果($3$条).
+    + 社会主义市场经济应该怎么做($2$方面).
+]
+
+#question[
+    按课本给出商品二因素和劳动二重性.
+]
+
+#question[
+    详细给出一个资本主义经济危机的案例.
 ]
